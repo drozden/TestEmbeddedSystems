@@ -127,7 +127,7 @@ int main( void )
 {
 	const TickType_t x10seconds = pdMS_TO_TICKS( DELAY_10_SECONDS );
 
-	xil_printf( "Hello from Dr. Droz!\r\n" );
+	xil_printf( "Hello from Ben Drozdenko and Dr. Droz!\r\n" );
 
 	/* Create the two tasks.  The Tx task is given a lower priority than the
 	Rx task, so the Rx task will leave the Blocked state and pre-empt the Tx
